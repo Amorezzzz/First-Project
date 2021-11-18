@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    
+}
+
+body{
+    background-image:url('../images/watercolor/watercolor.png');
+    font-family:'Red Hat Display', sans-serif; 
+}
+
+.main-back{
+    background-color: hsl(224.52, 100%, 93.92%);
+    width: 1440px;
+    height: 90vh;
+    margin: 50px auto;
+}
+.sec-layer{
+    background-image: url(../images/pattern-background-desktop.svg);
+    width: 1440px;
+    height: 500px;
+    background-repeat: no-repeat;
+}
+
+.container{
+    position: absolute;
+    background-color: white;
+    width: 450px;
+    height: 80vh;
+    margin:50px 450px;
+    border-radius: 20px;
+}
+.hero{
+    border-radius: 20px 20px 0 0 ;
+}
+
+h1{
+    color:hsl(223, 47%, 23%) ;
+    position: absolute;
+    left: 22%;
+    top: 35%;
+}
+.ptag{
+    color: hsl(0, 0%, 50.2%);
+    font-size: larger;
+    text-align: center;
+    position: absolute;
+    left: 3%;
+    top: 43%;
+}
+.items{
+    background-color: hsl(225, 100%, 98%);
+    display:grid;
+    grid-template-columns: auto 5em 5em auto;
+    position: absolute;
+    left: 10%;
+    top: 57%;
+    text-transform: capitalize;
+    padding: 20px;
+    align-items: center;
+    width: fit-content;
+    border-radius: 20px;
+}
+.item1{
+    background-color: hsl(225, 100%, 98%);
+    grid-row-start: span 2;
+}
+.item2{
+    background-color: hsl(225, 100%, 98%);
+    grid-column-start: 2 span;
+    padding-left: 30px;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+.item3 {
+    background-color: hsl(225, 100%, 98%);
+    grid-row-start: span 3;
+    padding-left: 70px;
+    font-weight: 600;
+}
+.item4 {
+    background-color: hsl(225, 100%, 98%);
+    color: hsl(0, 0%, 50.2%);
+    grid-column-start: 2 span;
+    padding-left: 30px;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+
+button{
+    color: whitesmoke;
+    background-color: hsl(227.94, 100%, 40%);
+    border: none;
+    border-radius: 10px;
+    padding:20px 120px;
+    position: absolute;
+    top:77%;
+    left: 7.5%;
+    font-family:'Red Hat Display', sans-serif; 
+    font-size: 1em;
+    font-weight:600;
+    cursor: pointer;
+    box-shadow:1px 1px 5px 1px black;
+}
+
+button:active{
+    color: whitesmoke;
+    background-color: hsl(227.94, 100%, 40%);
+    border: none;
+    border-radius: 10px;
+    padding:20px 120px;
+    position: absolute;
+    top:77%;
+    left: 7.5%;
+    font-family:'Red Hat Display', sans-serif; 
+    font-size: 1em;
+    font-weight:600;
+    cursor: pointer;
+    box-shadow:none;
+}
+
+.lastitem{
+    position: absolute;
+    top:90%;
+    left: 42%;
+    text-decoration: none;
+    color: hsl(0, 0%, 50.2%);
+    font-size: 1em;
+    font-weight: 700;
+}
